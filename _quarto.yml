@@ -1,0 +1,32 @@
+project:
+  type: website
+
+website:
+  title: "multi-test"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
+
+babelquarto:
+  languagecodes:
+  - name: da
+    text: "Version in dansk"
+  - name: en
+    text: "Version in english"
+  mainlanguage: 'en'
+  languages: ['da']
+title-da: dansk titel
+description-da: beskrivelse på dansk
+author-da: nusse in da
+lang: en
